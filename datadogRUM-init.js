@@ -9,7 +9,7 @@ const config = new DatadogProviderConfiguration(
   TrackingConsent.GRANTED,
   {
     rumConfiguration: {
-      applicationId: '9f209013-bf95-4904-ae0b-27b2eb0865ef',
+      applicationId: '<app-id>',
       trackInteractions: true, // Track user interactions (use the 'accessibilityLabel' prop to give tap actions a custom name)
       trackResources: true, // Track XHR Resources
       trackErrors: true, // Track Errors
