@@ -4,7 +4,7 @@ import {
 } from '@datadog/mobile-react-native';
 
 const config = new DatadogProviderConfiguration(
-  'pubf0b42d8cee08deae7e586773b2233193',
+  '<token>',
   'dev',
   TrackingConsent.GRANTED,
   {
